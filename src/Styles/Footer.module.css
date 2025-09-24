@@ -1,0 +1,29 @@
+.footerContainer{
+    width: 100%;
+    padding: 1em 0;
+    
+}
+.contentContainer{
+  max-width: 80%;
+  min-height: 40vh;
+  margin: 0 auto;
+}
+.mainContainer{
+  width: 100%;
+  display: flex;
+}
+
+.logo span{
+  color: var(--mainCl);
+}
+
+
+@media (min-width:1300px) {
+
+  .mainContainer{
+    display: flex;
+    
+  }
+
+  
+}

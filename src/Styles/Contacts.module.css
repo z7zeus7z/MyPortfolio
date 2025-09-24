@@ -1,0 +1,117 @@
+.contactsContainer{
+     width: 100%;
+     
+     padding:5em 0 ;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*======FORM======*/
+
+.contactForm{
+    width: 20em;
+    height: fit-content;
+    border-radius: 0.5em;
+    padding: 0.7em 1em;
+    border:1px solid var(--mainCl) ;
+}
+
+form h3 {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.label{
+    margin-right: 0.5em;
+}
+
+.input{
+    border-radius: 0.2em;
+    border: none;
+    width: 100%;
+}
+
+/*======TEXTAREA======*/
+
+.textArea{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.textArea textarea{
+    border-radius: 0.2em;
+    border: none;
+}
+
+.submit{
+    margin-bottom: 2em;
+    font-size: 0.8em;
+    padding: 0.3em 0.6em;
+    border: none;
+    border-radius: 0.7em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.alert{
+    background-color: beige;
+    padding: 0.1em 0.5em;
+}
+
+/*======ICONS======*/
+
+
+.links{
+    margin-top: 5em;
+    align-self: start;
+    width: 100%;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    
+    margin-bottom: 1em;
+}
+
+.CV{
+margin-top: 5em;
+}
+
+/*======RESPONSIVE======*/
+
+@media (min-width:600px) {
+    .links {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+@media (min-width:1000px) {
+    .mainContainer{
+       flex-direction: row;
+       justify-content: space-around;
+       margin-top: 16em;
+    }
+    .links{
+        display: block;
+        width: 40%;
+        
+    }
+
+    .icon p ,a{
+        font-size: 1.4em;
+    }
+
+    .contactForm{
+        width: 50%;
+      
+    }
+    
+}
