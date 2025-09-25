@@ -1,14 +1,13 @@
 {
   "name": "portfolio",
+  "homepage": "https://z7zeus7z.github.io/Zeus/",
   "private": true,
-  "homepage": "https://z7zeus7z.github.io/Portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d dist",
-
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -35,5 +34,4 @@
     "globals": "^16.3.0",
     "vite": "^7.1.2"
   }
-  
 }
