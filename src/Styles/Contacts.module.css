@@ -13,54 +13,107 @@
 
 /*======FORM======*/
 
-.contactForm{
-    width: 20em;
-    height: fit-content;
-    border-radius: 0.5em;
-    padding: 0.7em 1em;
-    border:1px solid var(--mainCl) ;
+.contactForm {
+    width: 100%;
+    max-width: 22em;
+    background: #111111;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 1.5em 1.2em;
+    border: 1px solid #DD6600;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contactForm:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
 }
 
 form h3 {
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
-.label{
-    margin-right: 0.5em;
+.label {
+    margin-bottom: 0.3em;
+    font-size: 0.95rem;
+    font-weight: 500;
 }
 
-.input{
-    border-radius: 0.2em;
-    border: none;
+.input {
+    border-radius: 0.5em;
+    border: 1px solid #333;
     width: 100%;
+    padding: 0.5em 0.8em;
+    background: #1a1a1a;
+    color: #fff;
+    margin-bottom: 1em;
+    transition: border 0.3s ease;
 }
 
-/*======TEXTAREA======*/
+.input:focus {
+    outline: none;
+    border: 1px solid #DD6600;
+}
 
-.textArea{
+.textArea {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
 }
 
-.textArea textarea{
-    border-radius: 0.2em;
+.textArea textarea {
+    border-radius: 0.5em;
+    border: 1px solid #333;
+    padding: 0.6em 0.8em;
+    background: #1a1a1a;
+    color: #fff;
+    resize: vertical;
+    min-height: 100px;
+    transition: border 0.3s ease;
+}
+
+.textArea textarea:focus {
+    outline: none;
+    border: 1px solid #DD6600;
+}
+
+.submit {
+    width: 100%;
+    font-size: 0.95em;
+    padding: 0.6em 0;
     border: none;
+    border-radius: 0.8em;
+    background: linear-gradient(135deg, #DD6600, #B35B00);
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
-.submit{
-    margin-bottom: 2em;
-    font-size: 0.8em;
-    padding: 0.3em 0.6em;
-    border: none;
-    border-radius: 0.7em;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.submit:hover {
+    background: linear-gradient(135deg, #B35B00, #DD6600);
+    transform: translateY(-2px);
 }
 
-.alert{
-    background-color: beige;
-    padding: 0.1em 0.5em;
+.alert {
+    background-color: #2a2a2a;
+    color: #DD6600;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    text-align: center;
+    font-size: 0.85rem;
+    margin-top: 1em;
+    animation: fadeOut 3s forwards;
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
 }
 
 /*======ICONS======*/
@@ -115,3 +168,4 @@ margin-top: 5em;
     }
     
 }
+

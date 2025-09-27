@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://z7zeus7z.github.io/Zeus/",
+  "homepage": "https://z7zeus7z.github.io/MyPortfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -20,7 +20,8 @@
     "@fortawesome/free-solid-svg-icons": "^7.0.1",
     "@fortawesome/react-fontawesome": "^3.0.2",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "typewriter-effect": "^2.22.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",

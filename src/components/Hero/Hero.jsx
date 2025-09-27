@@ -1,6 +1,7 @@
 import classes from '../../Styles/Hero.module.css'
-import myimg from '../../assets/LXTE4619.PNG'
+import myimg from '../../assets/myimg.png'
 import CTA from '../CTA'
+import Typewriter from 'typewriter-effect'
 const Hero = (props) => {
   const {id} = props
   return (
@@ -14,7 +15,15 @@ const Hero = (props) => {
                   </div>
                 </div>
                 <div className={classes.infoContainer}>
-                    <h3>React Developer & Frontend Engineer</h3>
+                   <Typewriter
+                      options={{
+                        delay:50,
+                        cursor: "" 
+                      }}
+                      onInit={(typewriter) => {
+                        typewriter.typeString("<h3>React Developer , Frontend Engineer</h3>")
+                        .start();
+                      }}/>
                     <p>Building modern web applications with React, JavaScript, and cutting-edge technologies. Passionate about creating exceptional user experiences.</p>
                      <div className={classes.btns}>
                     <CTA link="#projects" text="View my work"/>

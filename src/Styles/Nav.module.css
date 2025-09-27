@@ -26,10 +26,11 @@ a{
     right: 0;
     left: 0;
     z-index: 111;
+    background-color: #DD6600;
 }
 
 .logo span{
-color: var(--mainCl);
+color:white
 }
 
 .navLinks{
@@ -47,10 +48,11 @@ color: var(--mainCl);
 
 .navigate ul li{
     margin-right: 2em;
+    color: black;
 }
 
 .navigate ul li:hover{
-    color: var(--mainCl);
+    color: white;
     transition: 0.3s ease-in-out;
 }
 
@@ -58,10 +60,11 @@ color: var(--mainCl);
 
 .switch{
     cursor: pointer;
+    color: black;
 }
 
 .switch:hover{
-    color: var(--mainCl);
+    color: white;
         transition: 0.3s ease-in-out;
 
 }
@@ -69,7 +72,8 @@ color: var(--mainCl);
 /*===HAM===*/
 
 .ham{
-    cursor: pointer;
+    cursor: pointer; 
+    color: white;
 }
 
 .hamLinks{

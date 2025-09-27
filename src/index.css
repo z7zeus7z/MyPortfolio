@@ -33,13 +33,13 @@ body {
 
 
 .darkPrimary{
-  background-color: #111827;
+  background-color: black;
   transition: 0.3s ease-in-out;
   color: white;
 }
 
 .darkSecondary{
-  background-color: #1f2937;
+  background-color: #05080d;
   transition: 0.3s ease-in-out;
   color: white;
 }
@@ -56,27 +56,35 @@ body {
 }
 
 
-.CTA{
-	box-shadow: 0px 10px 14px -7px #75138e;
-	background:linear-gradient(to bottom, #681175 5%, #b435de 100%);
-	background-color:#681175;
-	border-radius:8px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:1em;
-	font-weight:bold;
-	padding:0.6em 0.6em;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #8c35dd;
+.CTA {
+  background: linear-gradient(135deg, #DD6600 0%, #ff7d1a 100%);
   border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 0.6em;
+  font-weight: 600;
+  padding: 0.75em 1.5em;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0px 6px 15px rgba(221, 102, 0, 0.4);
+  transition: all 0.25s ease;
 }
+
 .CTA:hover {
-	background:linear-gradient(to bottom, #b435de 5%, #681175 100%);
-	background-color:#b435de;
+  background: linear-gradient(135deg, #ff7d1a 0%, #DD6600 100%);
+  transform: translateY(-2px);
+  box-shadow: 0px 8px 18px rgba(221, 102, 0, 0.5);
 }
+
 .CTA:active {
-	position:relative;
-	top:1px;
+  transform: scale(0.96);
+  box-shadow: 0px 4px 10px rgba(221, 102, 0, 0.4);
 }
+
+@media (max-width:500px) {
+  .CTA{
+    font-size: 0.8em;
+  }
+}
+

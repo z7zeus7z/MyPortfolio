@@ -17,7 +17,7 @@ const Contacts = (props) => {
           <div className={classes.links}>
             <div className={classes.icon}><FontAwesomeIcon icon={faPhone}/><p>: +962778980355</p></div>
             <div className={classes.icon}><FontAwesomeIcon icon={faEnvelope}/><p>: Zaidsabbah89@gmail.com</p></div>
-            <div className={classes.icon}><FontAwesomeIcon icon={faLinkedin}/><a href="">: "fasfasfasfsf"</a></div>
+            <div className={classes.icon}><FontAwesomeIcon icon={faLinkedin}/><a target='_blank' href="https://www.linkedin.com/in/zaid-sabbah-964038235/">:  LinkedIn</a></div>
              <div className={classes.CV}><CTA download="Zaid_Sabbah-CV.pdf" link="./Zaid_Sabbah-CV.pdf"   text="Download CV"/></div>
           </div>
           
