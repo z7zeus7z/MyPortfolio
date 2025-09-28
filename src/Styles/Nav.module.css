@@ -86,7 +86,8 @@ color:white
     flex-direction: column;
     padding: 1em 0.6em;
     align-items: flex-end;
-    
+    background-color: #DD6600;
+    color: white;
 }
 
 .links{
