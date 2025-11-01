@@ -15,30 +15,6 @@ const projects = [
     link:'https://drive-spot.vercel.app',
     gitHub:'https://github.com/z7zeus7z/car-rental'
   },
-  {
-    id: 2,
-    name: "--------",
-    img: CommingSoon,
-    description: "A cool project is coming soon!",
-    link:'https://www.youtube.com/watch?v=t4_klm-_SMs',
-    gitHub:'github'
-  },
-  {
-    id: 3,
-    name: "------",
-    img: CommingSoon,
-    description: "A cool project is coming soon!",
-    link:'https://www.youtube.com/watch?v=t4_klm-_SMs',
-    gitHub:'github'
-  },
-  {
-    id: 4,
-    name: "--------------",
-    img: CommingSoon,
-    description: "A cool project is coming soon!",
-    link:'https://www.youtube.com/watch?v=t4_klm-_SMs',
-    gitHub:'github'
-  }
 ];
 
   return (
