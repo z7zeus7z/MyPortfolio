@@ -1,6 +1,7 @@
 import { useState } from "react"
 import Nav from "./components/Nav/Nav"
 import Hero from "./components/Hero/Hero";
+import Slider from "./components/slider";
 import About from "./components/About/About";
 import Projects from "./components/Work/Projects";
 import Contacts from "./components/Contacts/Contacts";
@@ -15,6 +16,7 @@ function App() {
     <>
     <Nav theme={theme} setTheme={toggleTheme}  />
     <Hero id="home"/>
+    <Slider theme={theme}/>
     <About id="about" theme={theme}/>
     <Projects id="projects" theme={theme}/>
     <Contacts id="contacts" theme={theme}/>

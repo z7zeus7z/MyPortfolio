@@ -9,10 +9,10 @@ const Projects = (props) => {
 const projects = [
   {
     id: 1,
-    name: "Car Rental Web Application",
+    name: "DriveSpot – Car Rental Web Application",
     img: DriveSpot,
-    description: " Responsive React + Vite project with car browsing, filtering, and a modern UI.",
-    link:'https://z7zeus7z.github.io/car-rental/',
+    description: " Full-stack MERN project built with React, Node.js, Express, and MongoDB. Includes car browsing, filtering, image gallery, authentication, and admin dashboard – all with a sleek modern UI.",
+    link:'https://drive-spot.vercel.app',
     gitHub:'https://github.com/z7zeus7z/car-rental'
   },
   {
